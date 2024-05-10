@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+.cv-section-heading {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.15rem;
+  color: #0d6efd;
+}
+.cv-section-heading:before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  background: #0d6efd;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cv-name {
+  font-size: 2.75rem;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+  color: #0d6efd;
+}
+.cv-tagline {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.cv-contact {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.75rem;
+}
+.cv-avatar {
+  max-width: 120px;
+  border-radius: 50% !important;
+}
+.cv-intro {
+  font-size: 0.875rem;
+}
+.cv-main .item-title {
+  font-size: 1rem;
+}
+.cv-main .item-meta {
+  font-size: 0.75rem;
+}
+.cv-main .item-content {
+  font-size: 0.875rem;
+}
+.cv-side {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+.cv-side .item {
+  font-size: 0.875rem;
+}
+.cv-side .item-title {
+  font-size: 1rem;
+}
+.cv-list {
+  font-size: 0.875rem;
+}
+.cv-list-interval {
+  font-size: 0.75rem;
+}
+.cv-external-links {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 991.98px) {
+  .cv-side {
+    border-left: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .cv-contact {
+    border-left: 0;
+  }
+}
