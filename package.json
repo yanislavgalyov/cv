@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "[GitHub](https://github.com/yanislavgalyov)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanislavgalyov/cv.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "YG",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
